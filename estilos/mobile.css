@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    --cor1: #C5D932;
+    --cor2: #4ABEBD;
+    --cor3: #2BB3B1;
+    --cor4: #E6EFF6;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+html, body {
+    display: flex;
+    background-color: #E6EFF6;
+    width: 100vw;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    background-color: #E6EFF6;
+    width: 375px;
+    height: auto;
+    padding:  40px 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div#secao {
+    display: flex;
+    background-color: #E6EFF6;
+    width: 340px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.158);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    padding: 30px;
+}
+
+#sub_secao1 {
+    background-color: white;
+}
+
+#sub_secao1 > h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #2BB3B1;
+}
+
+#sub_secao1 > strong {
+    display: block;
+    font-family: "Karla", sans-serif;
+    color:#c6d932;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#sub_secao1 > p {
+    color: rgba(0, 0, 0, 0.541);
+    font-family: "Karla", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-top: 20px;
+}
+
+article > h2 {
+    font-family: "Karla", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+#sub_secao2 {
+    background-color: #4ABEBD;
+}
+#sub_secao2 > div > strong {
+    display: flex;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.8em;
+    margin-top: 20px;
+
+    align-items: center;
+}
+
+#sub_secao2 > div > strong > em {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 0.5em;
+    margin-left: 10px;
+}
+
+#sub_secao2 > p {
+    font-family: "Karla", sans-serif;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 1em;   
+}
+
+#sub_secao2 > div#link {
+    text-align: center;
+    width: 280px;
+    padding: 10px 0px;
+    background-color: #C5D932;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.226);
+}
+
+#sub_secao2 > div#link > a {
+    color: white;
+    font-family: "Karla", sans-serif;
+    text-decoration: none;
+}
+
+#sub_secao3 {
+    background-color: #2BB3B1;
+}
+
+#sub_secao3 > p {
+    color: rgba(255, 255, 255, 0.774);
+    padding-right: 85px;
+    font-weight: 400;
+    font-family: "Karla", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 15px;
+}

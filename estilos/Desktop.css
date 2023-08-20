@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;        
+    }
+
+    main {
+        width: 800px;
+        padding: 10px 0px;
+
+    }
+
+    div#secao {
+        display: grid;
+        width: 700px;
+        padding: 0px;
+
+        grid-template-areas: 'iten1 iten1' 'iten2 iten3';
+
+        justify-content: center;
+        align-items: center;
+
+        grid-template-rows: 300px 200px;
+        grid-template-columns: 350px 350px;
+    }
+
+
+    article {  
+        height: 250px;
+        padding: 40px;
+
+    }
+
+    #sub_secao1 {
+        grid-area: iten1;
+    }
+
+    #sub_secao2 {
+        grid-area: iten2;
+    }
+
+    #sub_secao3 {
+        grid-area: iten3;
+    }
+
+    #sub_secao3 > p {
+        padding-right: 75px;
+        
+    }
+}
